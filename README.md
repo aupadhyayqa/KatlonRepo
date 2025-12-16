@@ -1,2 +1,4 @@
 # KatlonRepo
-This repo contains first katalon dummy project
+
+This repo contains first katalon dummy project.
+
