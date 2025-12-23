@@ -1,0 +1,55 @@
+2025-12-23 15:41:05.148 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Ashutosh\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-12-23 15:41:05.152 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Ashutosh\KatlonRepo\Include\config\log.properties
+2025-12-23 15:41:05.609 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TestSuite1
+2025-12-23 15:41:05.694 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Ashutosh Upadhyay
+2025-12-23 15:41:05.695 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KatlonRepo
+2025-12-23 15:41:05.696 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Ashutosh - C40LAP-13759L.india.rsystems.com
+2025-12-23 15:41:05.697 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-23 15:41:05.697 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.5
+2025-12-23 15:41:05.698 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-12-23 15:41:06.185 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-23 15:41:06.185 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ManualMode_Demo
+2025-12-23 15:41:06.556 DEBUG testcase.ManualMode_Demo                 - 1: openBrowser("")
+2025-12-23 15:41:06.808 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-12-23 15:41:06.912 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 23, 2025 3:41:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 23, 2025 3:41:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.3650.96. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-23 15:41:11.927 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3c8f8b55a0baf07b87bbff94c4a63671
+2025-12-23 15:41:11.928 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 143.0.3650.96
+2025-12-23 15:41:11.929 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-23 15:41:11.929 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-23 15:41:11.936 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-23 15:41:11.988 DEBUG testcase.ManualMode_Demo                 - 2: navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+2025-12-23 15:41:15.820 DEBUG testcase.ManualMode_Demo                 - 3: setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Username_username"), "Admin")
+2025-12-23 15:41:18.302 DEBUG testcase.ManualMode_Demo                 - 4: setEncryptedText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ==")
+2025-12-23 15:41:18.734 DEBUG testcase.ManualMode_Demo                 - 5: click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Login"))
+2025-12-23 15:41:20.688 DEBUG testcase.ManualMode_Demo                 - 6: click(findTestObject("OrangeHRM/Page_OrangeHRM/i_Upgrade_oxd-icon bi-caret-down-fill oxd-u_ca92f9"))
+2025-12-23 15:41:22.895 DEBUG testcase.ManualMode_Demo                 - 7: click(findTestObject("OrangeHRM/Page_OrangeHRM/a_Logout"))
+2025-12-23 15:41:24.236 DEBUG testcase.ManualMode_Demo                 - 8: closeBrowser()
+2025-12-23 15:41:24.601 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ManualMode_Demo
+2025-12-23 15:41:24.609 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-23 15:41:24.609 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/SciptMode_Demo
+2025-12-23 15:41:24.678 DEBUG testcase.SciptMode_Demo                  - 1: openBrowser("")
+2025-12-23 15:41:24.681 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-12-23 15:41:24.684 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 23, 2025 3:41:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 23, 2025 3:41:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.3650.96. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-23 15:41:25.895 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f571fb8fd6a125435ce5667b98275865
+2025-12-23 15:41:25.896 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 143.0.3650.96
+2025-12-23 15:41:25.897 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-23 15:41:25.898 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-23 15:41:25.898 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-23 15:41:25.917 DEBUG testcase.SciptMode_Demo                  - 2: navigateToUrl("https://practicetestautomation.com/practice-test-login/")
+2025-12-23 15:41:29.711 DEBUG testcase.SciptMode_Demo                  - 3: setText(findTestObject("Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Username_username"), "student")
+2025-12-23 15:41:30.416 DEBUG testcase.SciptMode_Demo                  - 4: setEncryptedText(findTestObject("Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Password_password"), "p4y+y39Ir5PJb2ispxT0Ew==")
+2025-12-23 15:41:30.789 DEBUG testcase.SciptMode_Demo                  - 5: click(findTestObject("Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/button_Submit"))
+2025-12-23 15:41:32.339 DEBUG testcase.SciptMode_Demo                  - 6: click(findTestObject("Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/a_Log out"))
+2025-12-23 15:41:33.277 DEBUG testcase.SciptMode_Demo                  - 7: closeBrowser()
+2025-12-23 15:41:33.584 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/SciptMode_Demo
+2025-12-23 15:41:33.613 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-23 15:41:33.614 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TestSuite1
+2025-12-23 15:41:33.614 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

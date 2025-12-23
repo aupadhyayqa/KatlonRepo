@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/Test Suite Collection",
+  "name": "Test Suite Collection",
+  "reportFolder": "C:\\Users\\Ashutosh\\KatlonRepo\\Reports\\20251223_153941\\Test Suite Collection\\20251223_153941",
+  "startTime": 1766484588371,
+  "endTime": 1766484695340,
+  "totalPassedTestCases": "7",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "7",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

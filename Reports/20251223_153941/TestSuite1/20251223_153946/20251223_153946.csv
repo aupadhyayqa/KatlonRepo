@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:05,23-12-2025 15:41:33,27.939s,PASSED
+,,,,,,,
+Test Cases/ManualMode_Demo,Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:06,23-12-2025 15:41:24,18.416s,PASSED
+"openBrowser("""")",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:06,23-12-2025 15:41:11,5.433s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:11,23-12-2025 15:41:15,3.831s,PASSED
+"setText(findTestObject(""OrangeHRM/Page_OrangeHRM/input_Username_username""), ""Admin"")",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:15,23-12-2025 15:41:18,2.481s,PASSED
+"setEncryptedText(findTestObject(""OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:18,23-12-2025 15:41:18,0.431s,PASSED
+"click(findTestObject(""OrangeHRM/Page_OrangeHRM/button_Login""))",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:18,23-12-2025 15:41:20,1.954s,PASSED
+"click(findTestObject(""OrangeHRM/Page_OrangeHRM/i_Upgrade_oxd-icon bi-caret-down-fill oxd-u_ca92f9""))",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:20,23-12-2025 15:41:22,2.206s,PASSED
+"click(findTestObject(""OrangeHRM/Page_OrangeHRM/a_Logout""))",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:22,23-12-2025 15:41:24,1.341s,PASSED
+closeBrowser(),Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:24,23-12-2025 15:41:24,0.364s,PASSED
+,,,,,,,
+Test Cases/SciptMode_Demo,Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:24,23-12-2025 15:41:33,8.975s,PASSED
+"openBrowser("""")",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:24,23-12-2025 15:41:25,1.239s,PASSED
+"navigateToUrl(""https://practicetestautomation.com/practice-test-login/"")",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:25,23-12-2025 15:41:29,3.794s,PASSED
+"setText(findTestObject(""Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Username_username""), ""student"")",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:29,23-12-2025 15:41:30,0.706s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Password_password""), ""p4y+y39Ir5PJb2ispxT0Ew=="")",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:30,23-12-2025 15:41:30,0.372s,PASSED
+"click(findTestObject(""Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/button_Submit""))",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:30,23-12-2025 15:41:32,1.549s,PASSED
+"click(findTestObject(""Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/a_Log out""))",Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:32,23-12-2025 15:41:33,0.937s,PASSED
+closeBrowser(),Edge Chromium 143.0.3650.96,,,23-12-2025 15:41:33,23-12-2025 15:41:33,0.306s,PASSED

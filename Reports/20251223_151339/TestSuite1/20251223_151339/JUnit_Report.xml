@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="31.688" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="31.688" skipped="0" timestamp="2025-12-23T09:43:58.765Z" hostname="Ashutosh - C40LAP-13759L.india.rsystems.com" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Ashutosh\\KatlonRepo\\Reports\\20251223_151339\\TestSuite1\\20251223_151339"/>
+         <property name="logFiles" value="C:\\Users\\Ashutosh\\KatlonRepo\\Reports\\20251223_151339\\TestSuite1\\20251223_151339\\console0.log, C:\\Users\\Ashutosh\\KatlonRepo\\Reports\\20251223_151339\\TestSuite1\\20251223_151339\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ashutosh - C40LAP-13759L.india.rsystems.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 143.0.7499.169"/>
+         <property name="userFullName" value="Ashutosh Upadhyay"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="050075385763744db7b8498836a73690"/>
+         <property name="projectName" value="KatlonRepo"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ManualMode_Demo" time="20.298" classname="Test Cases/ManualMode_Demo" status="PASSED">
+         <system-out><![CDATA[23-12-2025T15:13:59 - [TEST_CASE][PASSED] - Test Cases/ManualMode_Demo: Test Cases/ManualMode_Demo
+
+23-12-2025T15:13:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-12-2025T15:14:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-12-2025T15:14:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-12-2025T15:14:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-12-2025T15:14:04 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+23-12-2025T15:14:08 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+23-12-2025T15:14:08 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Username_username'
+
+23-12-2025T15:14:11 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Username_username'
+
+23-12-2025T15:14:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+23-12-2025T15:14:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+23-12-2025T15:14:12 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+23-12-2025T15:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+23-12-2025T15:14:13 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/i_Upgrade_oxd-icon bi-caret-down-fill oxd-u_ca92f9")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/i_Upgrade_oxd-icon bi-caret-down-fill oxd-u_ca92f9' is clicked on
+
+23-12-2025T15:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/i_Upgrade_oxd-icon bi-caret-down-fill oxd-u_ca92f9' is clicked on
+
+23-12-2025T15:14:17 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/a_Logout' is clicked on
+
+23-12-2025T15:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/a_Logout' is clicked on
+
+23-12-2025T15:14:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-12-2025T15:14:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SciptMode_Demo" time="10.834" classname="Test Cases/SciptMode_Demo" status="PASSED">
+         <system-out><![CDATA[23-12-2025T15:14:19 - [TEST_CASE][PASSED] - Test Cases/SciptMode_Demo: Test Cases/SciptMode_Demo
+
+23-12-2025T15:14:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-12-2025T15:14:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-12-2025T15:14:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-12-2025T15:14:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-12-2025T15:14:21 - [TEST_STEP][PASSED] - navigateToUrl("https://practicetestautomation.com/practice-test-login/"): Navigate to 'https://practicetestautomation.com/practice-test-login/' successfully
+
+23-12-2025T15:14:25 - [MESSAGE][PASSED] - Navigate to 'https://practicetestautomation.com/practice-test-login/' successfully
+
+23-12-2025T15:14:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Username_username"), "student"): Text 'student' is set on object 'Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Username_username'
+
+23-12-2025T15:14:26 - [MESSAGE][PASSED] - Text 'student' is set on object 'Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Username_username'
+
+23-12-2025T15:14:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Password_password"), "p4y+y39Ir5PJb2ispxT0Ew=="): Text ****** has been set on object 'Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Password_password'
+
+23-12-2025T15:14:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Password_password'
+
+23-12-2025T15:14:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/button_Submit")): Object: 'Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/button_Submit' is clicked on
+
+23-12-2025T15:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/button_Submit' is clicked on
+
+23-12-2025T15:14:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/a_Log out")): Object: 'Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/a_Log out' is clicked on
+
+23-12-2025T15:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/a_Log out' is clicked on
+
+23-12-2025T15:14:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-12-2025T15:14:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-12-2025T15:13:58 - [TEST_SUITE][PASSED] - TestSuite1: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

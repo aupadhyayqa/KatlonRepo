@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 143.0.7499.169,,,23-12-2025 15:40:07,23-12-2025 15:40:32,25.007s,PASSED
+,,,,,,,
+Test Cases/ManualMode_Demo,Chrome 143.0.7499.169,,,23-12-2025 15:40:07,23-12-2025 15:40:23,15.608s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.169,,,23-12-2025 15:40:08,23-12-2025 15:40:11,2.839s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 143.0.7499.169,,,23-12-2025 15:40:11,23-12-2025 15:40:14,3.755s,PASSED
+"setText(findTestObject(""OrangeHRM/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 143.0.7499.169,,,23-12-2025 15:40:14,23-12-2025 15:40:17,2.389s,PASSED
+"setEncryptedText(findTestObject(""OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 143.0.7499.169,,,23-12-2025 15:40:17,23-12-2025 15:40:17,0.437s,PASSED
+"click(findTestObject(""OrangeHRM/Page_OrangeHRM/button_Login""))",Chrome 143.0.7499.169,,,23-12-2025 15:40:17,23-12-2025 15:40:18,0.376s,PASSED
+"click(findTestObject(""OrangeHRM/Page_OrangeHRM/i_Upgrade_oxd-icon bi-caret-down-fill oxd-u_ca92f9""))",Chrome 143.0.7499.169,,,23-12-2025 15:40:18,23-12-2025 15:40:21,3.749s,PASSED
+"click(findTestObject(""OrangeHRM/Page_OrangeHRM/a_Logout""))",Chrome 143.0.7499.169,,,23-12-2025 15:40:21,23-12-2025 15:40:23,1.332s,PASSED
+closeBrowser(),Chrome 143.0.7499.169,,,23-12-2025 15:40:23,23-12-2025 15:40:23,0.293s,PASSED
+,,,,,,,
+Test Cases/SciptMode_Demo,Chrome 143.0.7499.169,,,23-12-2025 15:40:23,23-12-2025 15:40:32,8.778s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.169,,,23-12-2025 15:40:23,23-12-2025 15:40:24,1.099s,PASSED
+"navigateToUrl(""https://practicetestautomation.com/practice-test-login/"")",Chrome 143.0.7499.169,,,23-12-2025 15:40:24,23-12-2025 15:40:28,3.801s,PASSED
+"setText(findTestObject(""Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Username_username""), ""student"")",Chrome 143.0.7499.169,,,23-12-2025 15:40:28,23-12-2025 15:40:29,0.718s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/input_Password_password""), ""p4y+y39Ir5PJb2ispxT0Ew=="")",Chrome 143.0.7499.169,,,23-12-2025 15:40:29,23-12-2025 15:40:29,0.397s,PASSED
+"click(findTestObject(""Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/button_Submit""))",Chrome 143.0.7499.169,,,23-12-2025 15:40:29,23-12-2025 15:40:31,1.503s,PASSED
+"click(findTestObject(""Object Repository/ScripMode_Obj/Page_Test Login  Practice Test Automation/a_Log out""))",Chrome 143.0.7499.169,,,23-12-2025 15:40:31,23-12-2025 15:40:31,0.911s,PASSED
+closeBrowser(),Chrome 143.0.7499.169,,,23-12-2025 15:40:31,23-12-2025 15:40:32,0.253s,PASSED
